@@ -9,11 +9,14 @@ namespace ZooAnimalKingdom
     class Cashier
     {
         List<Visitor> visitors = new List<Visitor>();
+        
         public void DoesVisitorGetsIn(Visitor visitor)
         {
             double personBalance = visitor.GenerateVisitorMoney();
             int personAge = visitor.GenerateVisitorAge();
+
             Console.WriteLine($"Your balance is {personBalance}RSD");
+
             if (personBalance >= 800 && personAge > 7 )
             {
                 Console.WriteLine($"You may enter {visitor.GetFullName()}, enjoy your visit");
@@ -26,8 +29,10 @@ namespace ZooAnimalKingdom
             }
             else
             {
-                Console.WriteLine($"Back off you dumb, poor, poor bastard");
+                Console.WriteLine($"Back off you dumb, poor, poor bastard. I hope you drop dead!");
             }
+
+            Console.WriteLine(visitors.Count);
         }
     }
 }

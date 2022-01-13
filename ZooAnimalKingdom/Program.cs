@@ -7,7 +7,8 @@ namespace ZooAnimalKingdom
     {
         static void Main(string[] args)
         {
-            
+            Visitor visitor = new Visitor("Milivoj", "Radonic", 45000, 26);
+            Console.WriteLine(visitor.Age);
             
         }
     }

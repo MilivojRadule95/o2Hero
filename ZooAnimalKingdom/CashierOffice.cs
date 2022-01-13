@@ -8,6 +8,9 @@ namespace ZooAnimalKingdom
 {
     class CashierOffice
     {
-
+        //public int NumberOfVisitors(Visitor visitor)
+        //{
+           // int numberOfPeople = visitor;
+        //}
     }
 }

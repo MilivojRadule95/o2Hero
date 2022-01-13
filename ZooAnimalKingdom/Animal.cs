@@ -8,5 +8,10 @@ namespace ZooAnimalKingdom
 {
     class Animal
     {
+        private string _animalName;
+        public void Eat()
+        {
+            Console.WriteLine("Animal sound while eating");
+        }
     }
 }

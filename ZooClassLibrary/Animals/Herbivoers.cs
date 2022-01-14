@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ZooAnimalKingdom
 {
-    class Worker
+    class Herbivoers : Animal
     {
-        public void feedTheAnimals()
+        public override void Eat()
         {
-            Console.WriteLine("Animals have been feed");
+            throw new NotImplementedException();
         }
     }
 }

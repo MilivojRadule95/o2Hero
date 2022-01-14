@@ -14,3 +14,19 @@ C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\Zoo
 C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ref\ZooAnimalKingdom.dll
 C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.pdb
 C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.genruntimeconfig.cache
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\bin\Debug\net5.0\ZooAnimalKingdom.exe
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\bin\Debug\net5.0\ZooAnimalKingdom.deps.json
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\bin\Debug\net5.0\ZooAnimalKingdom.runtimeconfig.json
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\bin\Debug\net5.0\ZooAnimalKingdom.runtimeconfig.dev.json
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\bin\Debug\net5.0\ZooAnimalKingdom.dll
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\bin\Debug\net5.0\ref\ZooAnimalKingdom.dll
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\bin\Debug\net5.0\ZooAnimalKingdom.pdb
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.csproj.AssemblyReference.cache
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.AssemblyInfoInputs.cache
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.AssemblyInfo.cs
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.csproj.CoreCompileInputs.cache
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.dll
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ref\ZooAnimalKingdom.dll
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.pdb
+C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooAnimalKingdom\obj\Debug\net5.0\ZooAnimalKingdom.genruntimeconfig.cache

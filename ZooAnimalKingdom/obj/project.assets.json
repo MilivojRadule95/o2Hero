@@ -1,35 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "ZooClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ZooClassLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ZooClassLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ZooClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ZooClassLibrary/ZooClassLibrary.csproj",
+      "msbuildProject": "../ZooClassLibrary/ZooClassLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "ZooClassLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Milivoj\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Monster\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Milivoj\\Desktop\\ProjektiC#\\o2Hero\\ZooAnimalKingdom\\ZooAnimalKingdom.csproj",
-      "projectName": "ZooAnimalKingdom",
-      "projectPath": "C:\\Users\\Milivoj\\Desktop\\ProjektiC#\\o2Hero\\ZooAnimalKingdom\\ZooAnimalKingdom.csproj",
-      "packagesPath": "C:\\Users\\Milivoj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Milivoj\\Desktop\\ProjektiC#\\o2Hero\\ZooAnimalKingdom\\obj\\",
+      "projectUniqueName": "C:\\Users\\Monster\\Desktop\\Milivoj Projekti\\o2Hero\\ZooAnimalKingdom\\ZooTerminal.csproj",
+      "projectName": "ZooTerminal",
+      "projectPath": "C:\\Users\\Monster\\Desktop\\Milivoj Projekti\\o2Hero\\ZooAnimalKingdom\\ZooTerminal.csproj",
+      "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Monster\\Desktop\\Milivoj Projekti\\o2Hero\\ZooAnimalKingdom\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Milivoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -41,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Monster\\Desktop\\Milivoj Projekti\\o2Hero\\ZooClassLibrary\\ZooClassLibrary.csproj": {
+              "projectPath": "C:\\Users\\Monster\\Desktop\\Milivoj Projekti\\o2Hero\\ZooClassLibrary\\ZooClassLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

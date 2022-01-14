@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using ZooAnimalKingdom;
 
 namespace ZooAnimalKingdom
 {
@@ -7,9 +8,10 @@ namespace ZooAnimalKingdom
     {
         static void Main(string[] args)
         {
-            Visitor visitor = new Visitor("Milivoj", "Radonic", 45000, 26);
-            Console.WriteLine(visitor.Age);
-            
+            Visitor visitor = new Visitor("Milivoj", "Radonic");
+            Cashier cashier = new Cashier();
+
+            cashier.ProcessVisitor(visitor);          
         }
     }
 }

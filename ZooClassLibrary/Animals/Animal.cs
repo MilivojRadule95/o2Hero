@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace ZooAnimalKingdom
 {
-    class Animal
+    public abstract class Animal
     {
-        private string _animalName;
-        public void Eat()
-        {
-            Console.WriteLine("Animal sound while eating");
-        }
+        protected string _animalName;
+        protected int _foodRequirement;
+        public abstract void Eat();
     }
 }

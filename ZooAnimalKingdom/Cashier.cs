@@ -9,6 +9,7 @@ namespace ZooAnimalKingdom
     class Cashier
     {
         List<Visitor> visitors = new List<Visitor>();
+        List<Visitor> peopleAtTheEntrance = new List<Visitor>();
         
         public void DoesVisitorGetsIn(Visitor visitor)
         {
@@ -30,8 +31,11 @@ namespace ZooAnimalKingdom
             else
             {
                 Console.WriteLine($"Back off you dumb, poor, poor bastard. I hope you drop dead!");
-            }
 
+            }
+            peopleAtTheEntrance.Add(visitor);
+
+            Console.WriteLine(peopleAtTheEntrance.Count);
             Console.WriteLine(visitors.Count);
         }
     }

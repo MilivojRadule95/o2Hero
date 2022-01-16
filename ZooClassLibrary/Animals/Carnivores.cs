@@ -1,24 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ZooClassLibrary;
 
-namespace ZooAnimalKingdom
+namespace ZooAnimalKingdom.Animals
 {
-    class Carnivores : Animal
+    public class Carnivores : Animal
     {
+        public Carnivores(string animalName, int foodRequirement) : base(animalName, foodRequirement)
+        {
+        }
+
         public override void Eat()
         {
-            if (FoodStorage.TakeMeat(10))
-            {
-                Console.WriteLine("Animal got food");
-            }
-            else
-            {
-                Console.WriteLine("There is not enough food");
-            }
+            Console.WriteLine($"{this.AnimalName} got {this._foodRequirement} of meat");
         }
     }
 }

@@ -1,18 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ZooClassLibrary
+﻿
+namespace ZooAnimalKingdom.Buildings
 {
     public static class FoodStorage
     {
-        private static int _meatAmount;
-        private static int _grassAmount;
-
         private const int MAX_MEAT = 500;
         private const int MAX_GRASS = 500;
+
+        private static int _meatAmount = MAX_MEAT;
+        private static int _grassAmount = MAX_GRASS;
+
 
         public static int MeatAmount { get => _meatAmount;}
         public static int GrassAmount { get => _grassAmount;}

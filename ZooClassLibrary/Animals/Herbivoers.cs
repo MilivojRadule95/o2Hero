@@ -1,16 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ZooAnimalKingdom
+namespace ZooAnimalKingdom.Animals
 {
-    class Herbivoers : Animal
+    public class Herbivoers : Animal
     {
+        public Herbivoers(string animalName, int foodRequirement) : base(animalName, foodRequirement)
+        {
+        }
+
         public override void Eat()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{this.AnimalName} got {this._foodRequirement} of grass");
         }
     }
 }

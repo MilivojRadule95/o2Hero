@@ -1,12 +1,9 @@
-﻿using System;
+﻿
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ZooAnimalKingdom
+namespace ZooAnimalKingdom.Buildings
 {
-    static class CashierOffice
+    public static class CashierOffice
     {
         private const int FULL_TICKET_PRICE = 800;
         private const int DISCOUNT_PERCENTAGE = 50;
@@ -15,6 +12,8 @@ namespace ZooAnimalKingdom
         private static List<Visitor> _processed = new List<Visitor>();
 
         private static int zooIncome = 0;
+
+        public static int ZooIncome { get => zooIncome; }
 
         public static int GetVisitorsCount() 
         {

@@ -20,6 +20,7 @@ namespace ZooClassLibrary.TaskAndRoles
 
             CashierOffice.AddProcessed(visitor);
 
+
             Console.WriteLine($"Your balance is {visitor.Balance} RSD");
 
             if (visitor.Balance >= CashierOffice.TicketPrice() && visitor.Age > 7)
@@ -37,7 +38,7 @@ namespace ZooClassLibrary.TaskAndRoles
                 return;
             }
 
-            Console.WriteLine($"Looks like you are short a few bucks");
+            Console.WriteLine($"Looks like you are short a few bucks {visitor.GetFullName()}, come back later.");
         }
     }
 }

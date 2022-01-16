@@ -51,7 +51,7 @@ namespace ZooAnimalKingdom
         }
         private double GenerateVisitorMoney()
         {
-            return new Random().Next(700, 2500);
+            return new Random().Next(700, 1600);
         }
 
 

@@ -37,10 +37,10 @@ namespace ZooAnimalKingdom
                 new Carnivores("Puma Patike", 10),
                 new Carnivores("Leopard 1", 5),
 
-                new Herbivoers("Zebra Pesacki", 10),
-                new Herbivoers("Nindza Kornjaca", 30),
-                new Herbivoers("Mala Zirafa", 7),
-                new Herbivoers("Anoreksicni Slon", 2),
+                new Herbivoers("Pesacki Zebra", 10),
+                new Herbivoers("Ninja Turtle", 30),
+                new Herbivoers("Short Giraphe", 7),
+                new Herbivoers("Anorexic Elephant", 2),
             });
 
             foreach (Visitor v in visitors)
@@ -72,8 +72,11 @@ namespace ZooAnimalKingdom
             }
 
             Console.WriteLine();
-            Console.WriteLine(CashierOffice.GetAllPeopleCount());
-            Console.WriteLine(CashierOffice.ZooIncome);
+            Console.WriteLine($"The ZOO had {CashierOffice.GetAllPeopleCount()} visitors.");
+            Console.WriteLine();
+            Console.WriteLine($"{CashierOffice.GetVisitorsCount()} have managed to enter.");
+            Console.WriteLine();
+            Console.WriteLine($"{CashierOffice.ZooIncome}RSD ZOO has earned.");
         }
     }
 }

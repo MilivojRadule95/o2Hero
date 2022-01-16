@@ -11,8 +11,7 @@ namespace ZooAnimalKingdom
     {
         public void FeedAnimal(Animal animal)
         {
-            //TODO implement
-            throw new NotImplementedException();
+            Console.WriteLine("Animals have been feed");
         }
 
         public void ProcessVisitor(Visitor visitor)

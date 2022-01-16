@@ -10,3 +10,15 @@ C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooClassLibrary\bin\Debug\net5.
 C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.dll
 C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ref\ZooClassLibrary.dll
 C:\Users\Monster\Desktop\Milivoj Projekti\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.pdb
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\bin\Debug\net5.0\ZooClassLibrary.deps.json
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\bin\Debug\net5.0\ZooClassLibrary.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\bin\Debug\net5.0\ref\ZooClassLibrary.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\bin\Debug\net5.0\ZooClassLibrary.pdb
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.AssemblyInfo.cs
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ref\ZooClassLibrary.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ZooClassLibrary\obj\Debug\net5.0\ZooClassLibrary.pdb

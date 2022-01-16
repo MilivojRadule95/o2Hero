@@ -18,14 +18,14 @@ namespace ZooAnimalKingdom
             List<Visitor> visitors = new List<Visitor>();
             visitors.AddRange(new Visitor[]
                              {
-                                 new Visitor("Milivoj", "Radonic"),
-                                 new Visitor("Srdjan", "Stankovic"),
-                                 new Visitor("Anita", "Barna"),
-                                 new Visitor("Svtlana", "Saso"),
-                                 new Visitor("Milvoj", "Radonic"),
-                                 new Visitor("Srdjan", "Stakovic"),
-                                 new Visitor("Aita", "Bna"),
-                                 new Visitor("Svjlana", "aso")
+                                 new Visitor("Milan", "Todorovic"),
+                                 new Visitor("Vesna", "Mrgud"),
+                                 new Visitor("Teofilija", "Opancic"),
+                                 new Visitor("Levi", "Civitas"),
+                                 new Visitor("Mirza", "Kaludjerski"),
+                                 new Visitor("Lepi", "Brka"),
+                                 new Visitor("Vojin", "Preljub"),
+                                 new Visitor("Stevan", "Andjelovic")
 
                              });
 

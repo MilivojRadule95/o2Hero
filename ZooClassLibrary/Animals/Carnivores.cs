@@ -10,7 +10,7 @@ namespace ZooAnimalKingdom.Animals
 
         public override void Eat()
         {
-            Console.WriteLine($"{this.AnimalName} got {this._foodRequirement} of meat");
+            Console.WriteLine($"{this.AnimalName} has eaten {this._foodRequirement} kg of meat");
         }
     }
 }

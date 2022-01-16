@@ -32,15 +32,15 @@ namespace ZooAnimalKingdom
             List<Animal> animals = new List<Animal>();
             animals.AddRange(new Animal[]
             {
-                new Carnivores("Swiss Lion", 20),
-                new Carnivores("Tiger Pirot", 25),
+                new Carnivores("Swiss Lion", 10),
+                new Carnivores("Tiger Pirot", 15),
                 new Carnivores("Puma Patike", 10),
-                new Carnivores("Leopard 1", 15),
+                new Carnivores("Leopard 1", 5),
 
                 new Herbivoers("Zebra Pesacki", 10),
                 new Herbivoers("Nindza Kornjaca", 30),
-                new Herbivoers("Mala Zirafa", 2),
-                new Herbivoers("Anoreksicni Slon", 1),
+                new Herbivoers("Mala Zirafa", 7),
+                new Herbivoers("Anoreksicni Slon", 2),
             });
 
             foreach (Visitor v in visitors)

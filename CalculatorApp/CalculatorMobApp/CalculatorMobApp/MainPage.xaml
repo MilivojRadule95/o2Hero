@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalculatorMobApp.MainPage">
+
+    <StackLayout Padding="20">
+        <Frame BackgroundColor="WhiteSmoke"
+               Padding="15" Margin="0,0,0,20">
+            <Label Text="21"
+                   FontSize="36"
+                   FontAttributes="Bold"
+                   HorizontalOptions="End">
+            </Label>
+        </Frame>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="0"
+                Grid.Column="0"
+                Text="C"
+                    FontSize="Large"
+                    FontAttributes="Bold"/>
+            <Button Grid.Row="0"
+                Grid.Column="1"
+                Text="X"/>
+            <Button Grid.Row="0"
+                Grid.Column="2"
+                Text="%"/>
+            <Button Grid.Row="0"
+                Grid.Column="3"
+                Text="/"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

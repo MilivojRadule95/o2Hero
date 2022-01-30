@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginScreen.MainPage">
+
+    <Grid>
+        <BoxView x:Name="bdGradient" Scale="4" AnchorX="1" AnchorY="0">
+            <BoxView.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#23D5AB" Offset="0.3"/>
+                    <GradientStop Color="White" Offset="0.5"/>
+                    <GradientStop Color="#E73C7E" Offset="0.7"/>
+                    <GradientStop Color="Yellow" Offset="1.0"/>
+                </LinearGradientBrush>
+            </BoxView.Background>
+        </BoxView>
+
+        <StackLayout Spacing="20" 
+                 VerticalOptions="Center" 
+                 Margin="20">
+            <Image Source="logo.png"/>
+            <Entry x:Name="UsernameEntry" FontSize="40" Placeholder="Username"></Entry>
+            <Entry x:Name="PasswordEntry" FontSize="40" IsPassword="True" 
+               Placeholder="Password"></Entry>
+            <Button Clicked="Button_Clicked" Text="Login" CornerRadius="10" 
+                TextColor="White" 
+                BackgroundColor="Blue"></Button>
+            <Label HorizontalOptions="Center" x:Name="InfoLabel" FontSize="40"></Label>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

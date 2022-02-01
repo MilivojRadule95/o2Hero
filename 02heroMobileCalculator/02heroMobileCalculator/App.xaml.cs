@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("digital-7.ttf")]
+
 namespace _02heroMobileCalculator
 {
     public partial class App : Application

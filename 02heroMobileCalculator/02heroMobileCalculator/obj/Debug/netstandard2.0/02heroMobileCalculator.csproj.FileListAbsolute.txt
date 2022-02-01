@@ -1,0 +1,15 @@
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\bin\Debug\netstandard2.0\02heroMobileCalculator.deps.json
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\bin\Debug\netstandard2.0\02heroMobileCalculator.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\bin\Debug\netstandard2.0\ref\02heroMobileCalculator.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\bin\Debug\netstandard2.0\02heroMobileCalculator.pdb
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\02heroMobileCalculator.csproj.AssemblyReference.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\02heroMobileCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\02heroMobileCalculator.AssemblyInfoInputs.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\02heroMobileCalculator.AssemblyInfo.cs
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\02heroMobileCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\02heroMobileCalculator.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\ref\02heroMobileCalculator.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\02heroMobileCalculator\02heroMobileCalculator\obj\Debug\netstandard2.0\02heroMobileCalculator.pdb

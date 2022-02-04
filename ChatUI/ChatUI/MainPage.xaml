@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatUI.MainPage">
+
+    <StackLayout BackgroundColor="WhiteSmoke">
+
+        <Frame Style="{StaticResource SentMessageStyle}"
+               BackgroundColor="White"
+               Margin="40, 35, 40, 20">
+            <StackLayout>
+                <Label Text="Message sent by participants in this conversation are encrypted."
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                       BackgroundColor="White"/>
+            </StackLayout>
+        </Frame>
+
+        <StackLayout Orientation="Horizontal">
+        <Frame Style="{StaticResource SentMessageStyle}">
+            <StackLayout >
+                    <Label Style="{StaticResource MessageText}"
+                    Text="Remember my product idea? I have updates, but is sensitive."/>
+                    <Label Text="09:28"
+                       HorizontalTextAlignment="Start"/>
+            </StackLayout>
+        </Frame>
+            <Grid ColumnDefinitions="0,50,0,0" 
+          RowDefinitions="13,75,0,0">
+                <Image
+        Grid.Row="1"
+        Grid.Column="1"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        WidthRequest="50"
+        HeightRequest="50"        
+        Source="aperson">
+                    <Image.Clip>
+                        <EllipseGeometry
+                Center="25,25"
+                RadiusX="25"
+                RadiusY="25"/>
+                    </Image.Clip>
+                </Image>
+            </Grid>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Grid ColumnDefinitions="10,50,0,0" 
+          RowDefinitions="0,150,0,*">
+                <Image
+        Grid.Row="1"
+        Grid.Column="1"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        WidthRequest="50"
+        HeightRequest="50"        
+        Source="vperson">
+                    <Image.Clip>
+                        <EllipseGeometry
+                Center="25,25"
+                RadiusX="25"
+                RadiusY="25"/>
+                    </Image.Clip>
+                </Image>
+            </Grid>
+            <Frame Style="{StaticResource RecivedMessageStyle}">
+            <StackLayout Margin="10,10,10,10">
+                    <Label Style="{StaticResource MessageText}" 
+                    Text="Send them to me here. Everything is encrypted."/>
+                <Label Text="09:32"
+                       HorizontalTextAlignment="End"/>
+            </StackLayout>
+        </Frame>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Frame Style="{StaticResource SentMessageStyle}"
+               Margin="80, -20, -28, 0">
+            <StackLayout>
+                <Image Source="topsecret"
+                       WidthRequest="220"
+                       HeightRequest="175"/>
+                <Label Text="09:34"
+                       HorizontalTextAlignment="Start"/>
+            </StackLayout>
+            </Frame>
+            <Grid ColumnDefinitions="0,100,0,0" 
+          RowDefinitions="40,75,0,0">
+                <Image
+        Grid.Row="1"
+        Grid.Column="1"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        WidthRequest="50"
+        HeightRequest="50"        
+        Source="aperson">
+                    <Image.Clip>
+                        <EllipseGeometry
+                Center="25,25"
+                RadiusX="25"
+                RadiusY="25"/>
+                    </Image.Clip>
+                </Image>
+            </Grid>
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>

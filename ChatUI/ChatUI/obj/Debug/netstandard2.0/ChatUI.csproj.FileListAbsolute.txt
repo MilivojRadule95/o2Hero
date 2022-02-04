@@ -1,0 +1,15 @@
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\bin\Debug\netstandard2.0\ChatUI.deps.json
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\bin\Debug\netstandard2.0\ChatUI.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\bin\Debug\netstandard2.0\ref\ChatUI.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\bin\Debug\netstandard2.0\ChatUI.pdb
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ChatUI.csproj.AssemblyReference.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ChatUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ChatUI.AssemblyInfoInputs.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ChatUI.AssemblyInfo.cs
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ChatUI.csproj.CoreCompileInputs.cache
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ChatUI.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ref\ChatUI.dll
+C:\Users\Milivoj\Desktop\ProjektiC#\o2Hero\ChatUI\ChatUI\obj\Debug\netstandard2.0\ChatUI.pdb

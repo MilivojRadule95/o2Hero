@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ChatUI.App">
+    <Application.Resources>
+        <Style TargetType="Frame" x:Key="SentMessageStyle">
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="BackgroundColor" Value="#d7f0ff"/>
+            <Setter Property="Margin" Value="80, 10, -2, 0"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="HasShadow" Value="True"/>
+        </Style>
+
+        <Style TargetType="Label" x:Key="MessageText">
+            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+
+        <Style TargetType="Frame" x:Key="RecivedMessageStyle">
+            <Setter Property="CornerRadius" Value="15"/>
+            <Setter Property="BackgroundColor" Value="#eff6fb"/>
+            <Setter Property="Margin" Value="-10, 30, 80,50"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="HasShadow" Value="True"/>
+
+        </Style>
+
+    </Application.Resources>
+</Application>

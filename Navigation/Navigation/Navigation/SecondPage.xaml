@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigation.SecondPage"
+             Title="Second Page"
+             NavigationPage.HasNavigationBar = "False">
+    
+    <Grid BackgroundColor="Blue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Text="Empty"
+               x:Name="NumberLabel"/>
+        <Button VerticalOptions="Start"
+                Text="Navigate back"
+                Clicked="Button_Clicked"/>
+
+    </Grid>
+</ContentPage>
